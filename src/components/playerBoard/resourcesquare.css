@@ -1,0 +1,32 @@
+.resourceSquare{
+	height: 50vh;
+	width: 33vw;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	font-size: 8vmin;
+	color: white;
+	position: relative;
+	user-select: none;
+}
+.centering{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	height: 60%;
+	width: 60%;
+	text-shadow: 3px 2px 2px black;
+}
+.resourceSquare .label{
+	font-size: 3vmin;
+	display: block;
+	font-weight: bold;
+}
+.shiftButton{
+	font-size: 3vmin;
+	line-height: 3vmin;
+}
+.resourceValue{
+	margin: 0 7%;
+}
